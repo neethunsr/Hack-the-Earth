@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Habit List</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+	<style>
+		html {
+     	 		background-color: #F6F4D2;
+      			font-family: 'Poppins', sans-serif;
+		} 
+	</style>
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <label for="habit">New habit</label><br>
+      <input type="text" id="habit" name="habit" value="ex: Shopping ethically"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <p>How often do you want to be reminded?</p>
+    <form>
+      <input type="radio" id="every-day" name="how-often" value="every-day">
+      <label for="every-day">Every Day</label><br>
+      <input type="radio" id="every-other-day" name="how-often" value="every-other-day">
+      <label for="every-other-day">Every Other Day</label><br>
+      <input type="radio" id="customize" name="how-often" value="customize">
+      <label for="customize">Customize Frequency</label><br>
+      <input type="text" id="customize" name="customize" value="ex: Every Four Days"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
