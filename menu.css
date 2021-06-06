@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Poppins, Arial;
+}
+
+.contact{
+    margin-top: 150px;
+    color: #A44A3F;
+    font-size: 30px;
+}
+
+.header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #D4E09B;
+
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header ul a {
+    color: black;
+    display: block;
+    padding: 25px;
+    border-right: 1px solid #dfe7b7;
+    text-decoration: none;
+
+}
+
+.header ul a:hover{
+    background-color: #cfeb44;
+
+}
+
+.header .logo{
+    float: left;
+    display: block;
+    font-size: 2em;
+    padding: 10px 20px;
+}
+
+.header .nav-items{
+    clear: both;
+    max-height: 0;
+    background-color: #D4E09B;
+    transition: max-height .2s ease-out;
+}
+
+.header .menu-icon{
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+
+}
+
+.header .menu-icon .nav-icon{
+    background-color: #000;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before{
+    background: #000;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+
+.header .menu-icon .nav-icon:after{
+    background: #000;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+
+.header .menu-btn{
+    display: none;
+}
+
+.header .menu-btn:checked ~ .nav-items{
+    max-height: 700px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.earth-img{
+    padding: 20px;
+    
+
+}
+
+p{
+    margin: 50px;
+    align-items: center;
+}
