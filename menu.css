@@ -1,17 +1,18 @@
 body{
     margin: 0;
     font-family: Poppins, Arial;
+    background-color: #f6f4d2;
 }
 
 .contact{
-    margin-top: 150px;
+    margin-top: 130px;
     color: #A44A3F;
     font-size: 30px;
 }
 
 .header{
     top: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -36,7 +37,7 @@ body{
 }
 
 .header ul a:hover{
-    background-color: #cfeb44;
+    background-color: #d3e091;
 
 }
 
@@ -117,7 +118,6 @@ body{
 
 .earth-img{
     padding: 20px;
-    
 
 }
 

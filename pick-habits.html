@@ -3,72 +3,59 @@
   <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Daily View</title>
+	<title>Pick Habits</title>
+  <link rel="stylesheet" href="menu.css">
+  
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-	<style>
-		html {
-     	 		background-color: #F6F4D2;
-      			font-family: 'Poppins', sans-serif;
-		}
-		p {
-			font-size: 30px;
-		}
-		h1 {
-			color: #A44A3F;
-			font-size: 45px;
-		}  
-	</style>
+  <style>
+    input[type=button]{
+      float:center;
+      background-color:white;
+      color:black;
+      font-family:Poppins, sans-serif;
+      font-size:20px;
+      width: 16em;
+      padding:15px 20px;
+    }
+  </style>
   </head>
-  <body>
-    <h1 style="text-align:center">Daily View</h1>
-    <div class="nav-container">
-      <div class="wrapper">
-        <nav>
-          <ul class="nav-items">
-            <li>
-              <a href="#">Our Story</a>
-            </li>
+  <body><center>
+    <header class="header">
+      <input type="checkbox" class="menu-btn" id="menu-btn">
+      <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+      <ul class="nav-items">
+          <li><a href="daily-view.html">Daily View</a></li>
+          <li><a href="ach">Achievements</a></li>
+          <li><a href="knowledge.html">Knowledge</a></li>
+          <li><a href="resources.html">Resources</a></li>        
+          <li><a href="my-garden.html">Plant Rewards</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><center><img src="c.webp" class="earth-img" width="240px" height="196px" alt=""></center></li>
+      </ul>
+    </header>
+    <br>
 
-            <li>
-              <a href="#">Achievements</a>
-            </li>
-
-            <li>
-              <a href="#">Resources</a>
-            </li>
-
-            <li>
-              <a href="#">Plant Rewards</a>
-            </li>
-            
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
     <p>Start by picking three green habits!</p>
     <form action="">
-  	  <input type="submit" value="Reuse your coffee mug         >" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+  	  <input type="button" value="Reuse your coffee mug"/>
     </form>
     <form action="">
-  	  <input type="submit" value="Bike to work                              >" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+  	  <input type="button" value="Bike to work" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
     </form>
     <form action="">
-  	  <input type="submit" value="Compost your food waste    >" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+  	  <input type="button" value="Compost your food waste" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
     </form>
     <form action="">
-  	  <input type="submit" value="Volunteer for a clean up        >" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+  	  <input type="button" value="Volunteer for a clean up" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
     </form>
     <form action="">
-  	  <input type="submit" value="Use a reusable grocery bag  >" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+  	  <input type="button" value="Use a reusable grocery bag" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
     </form>
     <form action="">
-  	  <input type="submit" value="Take a shorter shower            >" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+  	  <input type="button" value="Take a shorter shower" style="float:center;background-color:white;color:black;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
     </form>
-    <a href="" target="_blank">
+    <a href="habit-list.html">
     	<img src="images/plus.png" alt="Add a task" height="70" style="padding: 10px;">
     </a>
   </body>

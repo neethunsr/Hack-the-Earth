@@ -5,28 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sign Up</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-	<style>
-		html {
-     	 		background-color: #F6F4D2;
-      			font-family: 'Poppins', sans-serif;
-      			font-size: 20px;
-		}
-		h1 {
-			color: #A44A3F;
-			font-size: 45px;
-		}
-	</style>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="styles.css">
+
   </head>
   <body>
-    <p>Welcome!</p>
-    <form action="/action_page.php">
+    <h1>Welcome!</h1>
+	<center>
+    <form action="location.html">
       <label for="name">Name</label><br>
-      <input type="text" id="name" name="name" value="John Doe"><br>
+      <input class="text-box" type="text" id="name" name="name" placeholder="John Doe"><br>
       <label for="email">Email</label><br>
-      <input type="text" id="email" name="email" value="johndoe@email.com"><br>
+      <input class="text-box" type="text" id="email" name="email" placeholder="abc@xyz.com"><br>
       <label for="password">Password</label><br>
-      <input type="text" id="password" name="password" value="*****"><br>
-      <input type="submit" value="Continue" style="float:center;background-color:#A44A3F;color:white;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;">
+      <input class="text-box" type="text" id="password" name="password" placeholder="*****"><br>
+      <input type="submit" value="Continue">
     </form>
-  </body>
+	</center>
+</body>

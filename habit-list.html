@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Habit List</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 	<style>
 		html {
@@ -14,20 +15,19 @@
 	</style>
   </head>
   <body>
-    <form action="/action_page.php">
+    
+    <form action="daily-view.html">
       <label for="habit">New habit</label><br>
-      <input type="text" id="habit" name="habit" value="ex: Shopping ethically"><br>
-      <input type="submit" value="Submit">
-    </form>
+      <input type="text" id="habit" name="habit" placeholder="ex: Shopping ethically"><br>
+    
     <p>How often do you want to be reminded?</p>
-    <form>
       <input type="radio" id="every-day" name="how-often" value="every-day">
       <label for="every-day">Every Day</label><br>
       <input type="radio" id="every-other-day" name="how-often" value="every-other-day">
       <label for="every-other-day">Every Other Day</label><br>
       <input type="radio" id="customize" name="how-often" value="customize">
       <label for="customize">Customize Frequency</label><br>
-      <input type="text" id="customize" name="customize" value="ex: Every Four Days"><br>
+      <input type="text" id="customize" name="customize" placeholder="ex: Every Four Days"><br>
       <input type="submit" value="Submit">
     </form>
   </body>
