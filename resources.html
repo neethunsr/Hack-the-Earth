@@ -4,63 +4,60 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Resources</title>
+	<link rel="stylesheet" href="menu.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 	<style>
-		html {
-     	 		background-color: #F6F4D2;
-      			font-family: 'Poppins', sans-serif;
-      			font-size: 20px;
-		}
-		h1 {
-			color: #A44A3F;
-			font-size: 45px;
-		}
 		.myDiv {
 			text-align: center;
+			
 		} 
+		input[type=submit]{
+			
+			background-color:#A44A3F;
+			color:white;
+			font-family:Poppins, sans-serif;
+			font-size:17px;
+			width: 21em;
+			padding:15px 20px;
+    }
 	</style>
   </head>
   <body>
-    <h1 style="text-align:center">Resources</h1>
-    <div class="nav-container">
-      <div class="wrapper">
-        <nav>
-          <ul class="nav-items">
-            <li>
-              <a href="#">Daily View</a>
-            </li>
+    <h1 class="contact" style="text-align:center">Resources</h1>
+	<header class="header">
+		<a href="daily-view.html">		
+			<img class="logo"src="images/logo.jpg" width=45px alt="logo">
+		</a>
 
-            <li>
-              <a href="#">Achievements</a>
-            </li>
-
-            <li>
-              <a href="#">Knowledge</a>
-            </li>
-
-            <li>
-              <a href="#">Plant Rewards</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+		<input type="checkbox" class="menu-btn" id="menu-btn">
+		<label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+		<ul class="nav-items">
+			<li><a href="daily-view.html">Daily View</a></li>
+			<li><a href="pick-habits.html">Pick a Habit</a></li>
+			<li><a href="knowledge.html">Knowledge</a></li>
+			<li><a href="resources.html">Resources</a></li>        
+			<li><a href="my-garden.html">Plant Rewards</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><center><img src="images/c.webp" class="earth-img" width="240px" height="196px" alt=""></center></li>
+		</ul>
+	</header>
     <p style="text-align:center"> Click on the logo to learn more about each organization!</p>
     <div class="myDiv">
 	    <a href="https://www.torontowildlifecentre.com/" target="_blank">
 	      <img src="images/twc.png" alt="Toronto Wildlife Centre" height="90" style="padding: 10px;">
-	    </a>
+	    
 	    <form action="https://www.torontowildlifecentre.com/contact/" target="_blank">
-	    	<input type="submit" value="Contact Toronto Wildlife Centre" style="float:center;background-color:#A44A3F;color:white;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+	    	<input type="submit" value="Toronto Wildlife Centre"/>
 	    </form>
+		</a>
     </div>
     <div class="myDiv">
 	    <a href="https://www.birdscanada.org/" target="_blank">
 	    <img src="images/bc.png" alt="Birds Canada" height="90" style="padding: 10px;">
 	    </a>
 	     <form action="https://www.birdscanada.org/contact-us/" target="_blank">
-	    	<input type="submit" value="Contact Birds Canada" style="float:center;background-color:#A44A3F;color:white;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+	    	<input type="submit" value="Birds Canada"/>
 	    </form>
     </div>
     <div class="myDiv">
@@ -68,7 +65,7 @@
 	    <img src="images/du.png" alt="Ducks Unlimited Canada" height="90" style="padding: 10px;">
 	    </a>
 	    <form action="https://www.ducks.ca/about/contact/" target="_blank">
-	    	<input type="submit" value="Contact Ducks Unlimited Canada" style="float:center;background-color:#A44A3F;color:white;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+	    	<input type="submit" value="Ducks Unlimited Canada"/>
 	    </form>
     </div>
     <div class="myDiv">
@@ -76,7 +73,7 @@
 	    <img src="images/wwf.png" alt="World Wildlife Fund Canada" height="90" style="padding: 10px;">
 	    </a>
 	    <form action="https://wwf.ca/contact-us/" target="_blank">
-	    	<input type="submit" value="Contact World Wildlife Fund Canada" style="float:center;background-color:#A44A3F;color:white;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+	    	<input type="submit" value="World Wildlife Fund Canada"/>
 	    </form>
     </div>
     <div class="myDiv">
@@ -84,7 +81,7 @@
 	    <img src="images/ncc.png" alt="Nature Conservancy Canada" height="90" style="padding: 10px;">
 	    </a>
 	    <form action="https://www.natureconservancy.ca/en/who-we-are/contact-us.html" target="_blank">
-	    	<input type="submit" value="Contact Nature Conservancy Canada" style="float:center;background-color:#A44A3F;color:white;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+	    	<input type="submit" value="Nature Conservancy Canada"/>
 	    </form>
     </div>
     <div class="myDiv">
@@ -92,7 +89,7 @@
 	    <img src="images/cpw.png" alt="Canadian Parks and Wilderness Society" height="90" style="padding: 10px;">
 	    </a>    
 	    <form action="https://cpaws.org/about/our-people/chapters/" target="_blank">
-	    	<input type="submit" value="Contact Canadian Parks and Wilderness Society" style="float:center;background-color:#A44A3F;color:white;font-family:Poppins, sans-serif;font-size:20px;padding:15px 20px;"/>
+	    	<input type="submit" value="Canadian Parks & Wilderness Society"/>
 	    </form>
     </div>
   </body>

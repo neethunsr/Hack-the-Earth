@@ -4,54 +4,36 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Garden</title>
+  <link rel="stylesheet" href="menu.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 	<style>
-		html {
-     	 		background-color: #F6F4D2;
-      			font-family: 'Poppins', sans-serif;
-		}
-		p {
-			font-size: 30px;
-		}
-		h1 {
-			color: #A44A3F;
-		}
+
 		.myDiv {
-  			border: 5px outset white;
+  		border: 5px outset white;
  			background-color: #F5B59A;
  			padding: 10px;
 		}
 	</style>
   </head>
   <body>
-      <div class="nav-container">
-      <div class="wrapper">
-        <nav>
-          <ul class="nav-items">
-            <li>
-              <a href="#">Our Story</a>
-            </li>
-            <li>
-              <a href="#">Daily View</a>
-            </li>
+    <header class="header">
+      <a href="daily-view.html">		<img class="logo"src="images/logo.jpg" width=45px alt="logo"></a>
+  
+      <input type="checkbox" class="menu-btn" id="menu-btn">
+      <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+      <ul class="nav-items">
+        <li><a href="daily-view.html">Daily View</a></li>
+        <li><a href="pick-habits.html">Pick a Habit</a></li>
+        <li><a href="knowledge.html">Knowledge</a></li>
+        <li><a href="resources.html">Resources</a></li>        
+        <li><a href="my-garden.html">Plant Rewards</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><center><img src="images/c.webp" class="earth-img" width="240px" height="196px" alt=""></center></li>
+      </ul>
+    </header>
 
-            <li>
-              <a href="#">Achievements</a>
-            </li>
-
-            <li>
-              <a href="#">Knowledge</a>
-            </li>
-
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <h1>My Garden</h1>
+    <h1 class="contact">My Garden</h1>
     <label for="file">Complete 4 more habits to level up your plant!</label>
     <progress id="file" value="24" max="100"> 20% </progress>
     <div class="myDiv">
@@ -61,11 +43,14 @@
     	<p>Reach level 3 to unlock your next plant!</p>
     </div>
     <div>
-    	<p>My Garden</p>
-    	<ol style="font-size:30px;">
+    <center>
+      <h3>My Garden</h3>
+    	<ol style="font-size:20px;">
     	  <li>Small potted plant</li>
     	  <li>Bee Balm</li>
-    	</ol>    	
+    	</ol> 
+    </center>
+    	   	
     </div> 
   </body>
 </html>
